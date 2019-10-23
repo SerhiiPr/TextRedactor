@@ -26,9 +26,5 @@ namespace TextRedactor
 
         }
 
-        private void Image_MouseUp(object sender, MouseButtonEventArgs e)
-        {
-            /**/
-        }
     }
 }

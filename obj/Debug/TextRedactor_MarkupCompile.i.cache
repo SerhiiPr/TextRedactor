@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\D\Applications\TextRedactor\TextRedactor\obj\Debug\
+D:\D\Applications\Project\TextRedactor\obj\Debug\
 TextRedactor
 none
 false
 DEBUG;TRACE
-D:\D\Applications\TextRedactor\TextRedactor\App.xaml
+D:\D\Applications\Project\TextRedactor\App.xaml
 11151548125
 
 61055056756
-18290750254
+18-1799102070
 MainWindow.xaml;
 
-False
+True
 
