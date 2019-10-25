@@ -4,16 +4,28 @@
 winexe
 C#
 .cs
+<<<<<<< Updated upstream
 C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\obj\Debug\
+=======
+D:\D\Applications\Project\TextRedactor\obj\Debug\
+>>>>>>> Stashed changes
 TextRedactor
 none
 false
 DEBUG;TRACE
+<<<<<<< Updated upstream
 C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\App.xaml
 11151548125
 
 61273029951
 19-1054159288
+=======
+D:\D\Applications\Project\TextRedactor\App.xaml
+11151548125
+
+5-2017746502
+18-1799102070
+>>>>>>> Stashed changes
 MainWindow.xaml;
 
 False

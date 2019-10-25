@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:TextRedactor"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         mc:Ignorable="d"
-        Title="Text Redactor" Height="450" Width="800">
+        Title="ZEFIR edit" Height="450" Width="800">
     <Window.Resources>
         <Style TargetType="Image">
             <Setter Property="Cursor" Value="Hand"/>
@@ -31,9 +31,18 @@
                 <GradientStop Color="#FFB6EEFF" Offset="0.441"/>
             </LinearGradientBrush>
         </Grid.Background>
+<<<<<<< Updated upstream
         <RichTextBox x:Name="docBox" Margin="10,153,10,42" BorderThickness="2" BorderBrush="#FFFFADF7">
             <FlowDocument>
                 <Paragraph/>
+=======
+
+        <RichTextBox Margin="10,153,10,42" BorderThickness="2" BorderBrush="#FFFFADF7">
+            
+            <FlowDocument>
+                <Paragraph>
+                </Paragraph>
+>>>>>>> Stashed changes
             </FlowDocument>
         </RichTextBox>
 
@@ -96,7 +105,7 @@
                             <GradientStop Color="White" Offset="1"/>
                         </LinearGradientBrush>
                     </Grid.Background>
-                    <ComboBox x:Name="fonts" 
+                    <ComboBox x:Name="fonts"
                         ItemsSource="{Binding Source={x:Static Member=Fonts.SystemFontFamilies}}" Margin="10,10,604,40" SelectedIndex="12" BorderBrush="#FFEB93F3" Foreground="Black" Background="#FFE690E7">
                         <ComboBox.ItemTemplate>
                             <DataTemplate>
