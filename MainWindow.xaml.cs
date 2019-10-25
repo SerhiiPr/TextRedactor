@@ -23,15 +23,8 @@ namespace TextRedactor
         public MainWindow()
         {
             InitializeComponent();
+
         }
 
-        //event MouseUp on Image "Open File"
-        private void Image_MouseUp(object sender, MouseButtonEventArgs e)
-        {
-            // FileProcess tool for work with file
-            FileProcess fp = new FileProcess();
-            //  fp.Open(richtexbox, label)
-            fp.Open(docBox, LabelShowFileName);
-        }
     }
 }

@@ -31,9 +31,11 @@
                 <GradientStop Color="#FFB6EEFF" Offset="0.441"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <RichTextBox x:Name="docBox" Margin="10,153,10,42" BorderThickness="2" BorderBrush="#FFFFADF7">
+        <RichTextBox Margin="10,153,10,42" BorderThickness="2" BorderBrush="#FFFFADF7">
             <FlowDocument>
-                <Paragraph/>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
             </FlowDocument>
         </RichTextBox>
 
@@ -57,7 +59,7 @@
                             <GradientStop Color="White" Offset="1"/>
                         </LinearGradientBrush>
                     </Grid.Background>
-                    <Image HorizontalAlignment="Left" Height="42" Margin="16.867,19,0,0" VerticalAlignment="Top" Width="48" Source="pack://application:,,,/img/ico/open.png" Grid.Column="1" MouseUp="Image_MouseUp">
+                    <Image HorizontalAlignment="Left" Height="42" Margin="16.867,19,0,0" VerticalAlignment="Top" Width="48" Source="pack://application:,,,/img/ico/open.png" Grid.Column="1">
                         <Image.ToolTip>
                             <ToolTip  Background="#FFFFADF7" Foreground="White" >
                                 Open File
@@ -133,6 +135,5 @@
 
             </StatusBarItem>
         </StatusBar>
-        <Label x:Name="LabelShowFileName" Content="" HorizontalAlignment="Left" Margin="10,127,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
