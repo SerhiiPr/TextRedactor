@@ -59,3 +59,31 @@ D:\D\Applications\TextRedactor\TextRedactor\obj\Debug\MainWindow.g.cs
 D:\D\Applications\TextRedactor\TextRedactor\obj\Debug\TextRedactor_MarkupCompile.lref
 D:\D\Applications\TextRedactor\TextRedactor\obj\Debug\MainWindow.baml
 D:\D\Applications\TextRedactor\TextRedactor\obj\Debug\TextRedactor.g.resources
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\bin\Debug\TextRedactor.exe.config
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\bin\Debug\TextRedactor.exe
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\bin\Debug\TextRedactor.pdb
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\bin\Debug\itextsharp.dll
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\bin\Debug\itextsharp.xml
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\obj\Debug\TextRedactor.csprojAssemblyReference.cache
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\obj\Debug\MainWindow.g.cs
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\obj\Debug\App.g.cs
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\obj\Debug\TextRedactor_MarkupCompile.cache
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\obj\Debug\TextRedactor_MarkupCompile.lref
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\obj\Debug\MainWindow.baml
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\obj\Debug\TextRedactor.g.resources
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\obj\Debug\TextRedactor.Properties.Resources.resources
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\obj\Debug\TextRedactor.csproj.GenerateResource.cache
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\obj\Debug\TextRedactor.csproj.CoreCompileInputs.cache
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\obj\Debug\TextRedactor.csproj.CopyComplete
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\obj\Debug\TextRedactor.exe
+C:\Users\Dima\Desktop\Рабочий стол(213)\dz 143242\My_Dz_Work (23452)\for_work_active\team project\redactorRELEAS\TextRedactor\obj\Debug\TextRedactor.pdb
