@@ -113,13 +113,21 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="img\ico\bold.png" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="img\ico\dark.png" />
     <Resource Include="img\ico\file.png" />
     <Resource Include="img\ico\light.png" />
     <Resource Include="img\ico\open.png" />
     <Resource Include="img\ico\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\ico\italic.png" />
+    <Resource Include="img\ico\lower.png" />
+    <Resource Include="img\ico\upper.png" />
+    <Resource Include="img\ico\uuu.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

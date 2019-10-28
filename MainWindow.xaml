@@ -23,7 +23,7 @@
         </Style>
     </Window.Resources>
     <Grid>
-        
+
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                 <GradientStop Color="#FFFFD9FB" Offset="0"/>
@@ -31,18 +31,12 @@
                 <GradientStop Color="#FFB6EEFF" Offset="0.441"/>
             </LinearGradientBrush>
         </Grid.Background>
-<<<<<<< Updated upstream
-        <RichTextBox x:Name="docBox" Margin="10,153,10,42" BorderThickness="2" BorderBrush="#FFFFADF7">
-            <FlowDocument>
-                <Paragraph/>
-=======
 
-        <RichTextBox Margin="10,153,10,42" BorderThickness="2" BorderBrush="#FFFFADF7">
-            
+        <RichTextBox x:Name="docBox" Margin="10,153,10,42" BorderThickness="2" BorderBrush="#FFFFADF7" SelectionChanged="docBox_SelectionChanged" LostFocus="docBox_LostFocus">
+
             <FlowDocument>
                 <Paragraph>
                 </Paragraph>
->>>>>>> Stashed changes
             </FlowDocument>
         </RichTextBox>
 
@@ -106,15 +100,48 @@
                         </LinearGradientBrush>
                     </Grid.Background>
                     <ComboBox x:Name="fonts"
-                        ItemsSource="{Binding Source={x:Static Member=Fonts.SystemFontFamilies}}" Margin="10,10,604,40" SelectedIndex="12" BorderBrush="#FFEB93F3" Foreground="Black" Background="#FFE690E7">
+                        ItemsSource="{Binding Source={x:Static Member=Fonts.SystemFontFamilies}}" Margin="10,10,604,40" SelectedIndex="12" BorderBrush="#FFEB93F3" Foreground="Black" Background="#FFE690E7" MouseUp="fonts_MouseUp" MouseDown="fonts_MouseDown" MouseEnter="fonts_MouseEnter" SelectionChanged="fonts_SelectionChanged">
                         <ComboBox.ItemTemplate>
                             <DataTemplate>
                                 <TextBlock Text="{Binding}" FontFamily="{Binding}"/>
                             </DataTemplate>
                         </ComboBox.ItemTemplate>
                     </ComboBox>
-                    <xctk:ColorPicker x:Name="_colorPicker"
-                           VerticalAlignment="Top" Margin="10,39,604,0" />
+                    <xctk:ColorPicker x:Name="colorPicker"
+                           VerticalAlignment="Top" Margin="10,39,604,0" MouseEnter="colorPicker_MouseEnter" MouseUp="colorPicker_MouseUp"/>
+                    <Image x:Name="bold_ico" HorizontalAlignment="Left" Height="28" Margin="188,24,0,0" VerticalAlignment="Top" Width="28" Source="pack://application:,,,/img/ico/bold.png" MouseUp="bold_ico_MouseUp">
+
+                        <Image.ToolTip>
+                            <ToolTip Background="#FFFFADF7" Foreground="White" >
+                                Bold
+                            </ToolTip>
+                        </Image.ToolTip>
+                    </Image>
+                    <Image x:Name="italic_ico" HorizontalAlignment="Left" Height="26" Margin="226,24,0,0" VerticalAlignment="Top" Width="30" Source="pack://application:,,,/img/ico/italic.png" MouseUp="italic_ico_MouseUp">
+
+                        <Image.ToolTip>
+                            <ToolTip Background="#FFFFADF7" Foreground="White" Content="Italic" />
+                        </Image.ToolTip>
+                    </Image>
+                    <Image x:Name="underline_ico" HorizontalAlignment="Left" Height="31" Margin="265,25,0,0" VerticalAlignment="Top" Width="39" Source="pack://application:,,,/img/ico/uuu.png" MouseUp="underline_ico_MouseUp">
+
+                        <Image.ToolTip>
+                            <ToolTip Background="#FFFFADF7" Foreground="White" Content="Underline" />
+                        </Image.ToolTip>
+                    </Image>
+                    <Image x:Name="upper_ico" HorizontalAlignment="Left" Height="49" Margin="307,25,0,-4.4" VerticalAlignment="Top" Width="55" Source="pack://application:,,,/img/ico/upper.png">
+
+                        <Image.ToolTip>
+                            <ToolTip Background="#FFFFADF7" Foreground="White" Content="Upper" />
+                        </Image.ToolTip>
+                    </Image>
+                    <Image x:Name="lower_ico" HorizontalAlignment="Left" Height="37" Margin="370,33,0,-0.4" VerticalAlignment="Top" Width="39" Source="pack://application:,,,/img/ico/lower.png">
+
+                        <Image.ToolTip>
+                            <ToolTip Background="#FFFFADF7" Foreground="White" Content="Lower" />
+                        </Image.ToolTip>
+                    </Image>
+
                 </Grid>
             </TabItem>
             <TabItem Header="View">

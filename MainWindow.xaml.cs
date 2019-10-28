@@ -33,5 +33,96 @@ namespace TextRedactor
             //  fp.Open(richtexbox, label)
             fp.Open(docBox, LabelShowFileName);
         }
+
+        private void docBox_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            //MessageBox.Show(docBox.Selection.Text);
+            
+        }
+
+        private void fonts_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            TextRange range = new TextRange(docBox.Selection.Start, docBox.Selection.End);    // Get RichTextBox content.
+            range.ApplyPropertyValue(RichTextBox.FontFamilyProperty,
+                fonts.SelectedValue);
+
+        }
+
+        private void fonts_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+       
+        }
+
+        private void fonts_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void colorPicker_MouseEnter(object sender, MouseEventArgs e)
+        {
+            
+        }
+
+        private void docBox_LostFocus(object sender, RoutedEventArgs e)
+        {
+            e.Handled = true;
+        }
+
+        private void colorPicker_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            if (colorPicker.SelectedColor != null)
+            {
+                SolidColorBrush b = new SolidColorBrush(colorPicker.SelectedColor.Value);
+                //Brushes brush = new SolidColorBrush(colorPicker.SelectedColor.Value);
+                TextRange range = new TextRange(docBox.Selection.Start, docBox.Selection.End);    // Get RichTextBox content.
+                range.ApplyPropertyValue(RichTextBox.ForegroundProperty, b);
+            }
+        }
+
+        private void fonts_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            TextRange range = new TextRange(docBox.Selection.Start, docBox.Selection.End);    // Get RichTextBox content.
+            range.ApplyPropertyValue(RichTextBox.FontFamilyProperty,
+                fonts.SelectedValue);
+        }
+
+        private void bold_ico_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            TextRange range = new TextRange(docBox.Selection.Start, docBox.Selection.End);    // Get RichTextBox content.
+            
+
+            if(range.GetPropertyValue(RichTextBox.FontWeightProperty).ToString() == FontWeights.Bold.ToString())
+            {
+                range.ApplyPropertyValue(RichTextBox.FontWeightProperty,
+                   FontWeights.Regular);
+            }
+            else
+            {
+                range.ApplyPropertyValue(RichTextBox.FontWeightProperty,
+                   FontWeights.Bold);
+            }
+        }
+
+        private void italic_ico_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            TextRange range = new TextRange(docBox.Selection.Start, docBox.Selection.End);    // Get RichTextBox content.
+
+            if (range.GetPropertyValue(Inline.FontStyleProperty).ToString() == FontStyles.Italic.ToString())
+            {
+                range.ApplyPropertyValue(Inline.FontStyleProperty,
+                 FontStyles.Italic);
+            }
+            else
+            {
+                range.ApplyPropertyValue(Inline.FontStyleProperty,
+                   FontStyles.Normal);
+            }
+        }
+
+        private void underline_ico_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            // TextDecorations
+
+        }
     }
 }
