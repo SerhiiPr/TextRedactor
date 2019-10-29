@@ -19,19 +19,38 @@ namespace TextRedactor
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
-    {
+    {      
+        //path for current file
+        public string PathToFile;
+
         public MainWindow()
         {
             InitializeComponent();
+            PathToFile = "";
         }
 
-        //event MouseUp on Image "Open File"
-        private void Image_MouseUp(object sender, MouseButtonEventArgs e)
+        private void ButtonSaveFile_Click(object sender, RoutedEventArgs e)
         {
             // FileProcess tool for work with file
-            FileProcess fp = new FileProcess();
+            FileProcess fileProcess = new FileProcess();
+            //  fp.Save(richtexbox, label, string)
+            PathToFile = fileProcess.Save(docBox, LabelShowFileName, PathToFile);
+        }
+
+        private void ButtonOpenFile_Click(object sender, RoutedEventArgs e)
+        {
+            // FileProcess tool for work with file
+            FileProcess fileProcess = new FileProcess();
             //  fp.Open(richtexbox, label)
-            fp.Open(docBox, LabelShowFileName);
+            PathToFile = fileProcess.Open(docBox, LabelShowFileName);
+        }
+
+        private void ButtonNewFile_Click(object sender, RoutedEventArgs e)
+        {
+            // FileProcess tool for work with file
+            FileProcess fileProcess = new FileProcess();
+            //  fp.Create(richtexbox, label)
+            PathToFile = fileProcess.Create(docBox, LabelShowFileName);
         }
 
         private void docBox_SelectionChanged(object sender, RoutedEventArgs e)
