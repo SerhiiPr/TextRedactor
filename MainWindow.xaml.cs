@@ -27,6 +27,11 @@ namespace TextRedactor
         {
             InitializeComponent();
             PathToFile = "";
+            cmbFontSize.ItemsSource = new List<double>() 
+            { 
+                8, 9, 10, 11, 12, 14, 16, 18, 20, 
+                22, 24, 26, 28, 36, 48, 72 
+            };
         }
 
         private void ButtonSaveFile_Click(object sender, RoutedEventArgs e)
@@ -57,6 +62,8 @@ namespace TextRedactor
         {
             //MessageBox.Show(docBox.Selection.Text);
             
+            //docBox.FontSize=double.Parse(cmbFontSize.Text);
+      
         }
 
         private void fonts_MouseUp(object sender, MouseButtonEventArgs e)
@@ -143,5 +150,31 @@ namespace TextRedactor
             // TextDecorations
 
         }
+
+        private void cmbFontSize_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            TextRange range = new TextRange(docBox.Selection.Start, docBox.Selection.End);    // Get RichTextBox content.
+
+
+            try
+            {
+
+                range.ApplyPropertyValue(Inline.FontSizeProperty, cmbFontSize.Text);
+            }
+            catch
+            {
+
+            }
+
+
+            //if (docBox.FontSize != double.Parse(cmbFontSize.Text))
+            //{
+            //    range.ApplyPropertyValue(Inline.FontSizeProperty, cmbFontSize.Text);
+            //}
+
+            
+        }
+
+       
     }
 }
