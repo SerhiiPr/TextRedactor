@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -167,14 +169,30 @@ namespace TextRedactor
             }
 
 
-            //if (docBox.FontSize != double.Parse(cmbFontSize.Text))
-            //{
-            //    range.ApplyPropertyValue(Inline.FontSizeProperty, cmbFontSize.Text);
-            //}
-
+            
             
         }
 
-       
+        private void btm_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            var openFileDialog = new OpenFileDialog
+            {
+                Title = "Adaugă Imagine",
+                InitialDirectory = "c:\\",
+                Filter = "PNG (*.png)|*.png|JPEG (*.jpg;*.jpeg;*.jpe)|*.jpg;*.jpeg;*.jpe|BMP (*.bmp)|*.bmp"
+            };
+            if (openFileDialog.ShowDialog() == true)
+            {
+                //var clipboardData = Clipboard.GetDataObject();
+                var bitmapImage = new BitmapImage(new Uri(openFileDialog.FileName, UriKind.Absolute));
+                Clipboard.SetImage(bitmapImage);
+                docBox.Paste();
+                //if (clipboardData != null) Clipboard.SetDataObject(clipboardData);
+            }
+
+
+
+
+        }
     }
 }

@@ -147,6 +147,7 @@
                         </Image.ToolTip>
                     </Image>
                     <ComboBox Name="cmbFontSize" IsEditable="True" TextBoxBase.TextChanged="cmbFontSize_TextChanged" Margin="165,10,555,40" SelectedIndex="1"  />
+                    <Image x:Name="btm" HorizontalAlignment="Left" Height="46" Margin="488,10,0,0" VerticalAlignment="Top" Width="63" Source="pack://application:,,,/img/ico/btm.png" MouseUp="btm_MouseUp"/>
 
                 </Grid>
             </TabItem>
